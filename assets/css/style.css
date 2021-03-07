@@ -3,7 +3,7 @@
 }
 
 .day {
-  height: 300px;
+  height: 350px;
   width: 19.5%;
   float: left;
   margin-left: 0.5%;
@@ -14,7 +14,8 @@
   width: 100%;
   height: 20%;
   background-color: orange;
-  margin-top: 7.5%;
+  margin-top: 5%;
+  font-size: 30px;
 }
 .imgForWeather {
   height: 30%;
@@ -25,8 +26,9 @@
 .weather {
   height: 30%;
   width: 100%;
-  margin-top: 10%;
-  background-color: maroon;
+  margin-top: 5%;
+  background-color: rgb(0, 245, 253);
+  font-size: 20px;
 }
 #daysEach {
   display: block;
@@ -37,7 +39,7 @@ header {
   height: 300px;
   background-color: blue;
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 150px;
 }
 
 #title {
@@ -45,16 +47,19 @@ header {
   width: 90%;
   margin-left: 5%;
   height: 33.3%;
+  font-size: 90px;
 }
 #today {
   background-color: yellow;
   width: 90%;
   margin-left: 5%;
   height: 33.3%;
+  font-size: 50px;
 }
 #date {
   background-color: green;
   width: 90%;
   margin-left: 5%;
   height: 33.3%;
+  font-size: 40px;
 }
