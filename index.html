@@ -10,11 +10,21 @@
 
   <body>
     <header>
-      <div id="title">Title</div>
-      <div id="today">Today</div>
-      <div id="date">Date</div>
+      <div id="title">World Wide Weather</div>
+      <div id="today"></div>
+      <div id="current"></div>
     </header>
     <main>
+      <div id="searchBar">
+        <form action="text">
+          <label for="place">Location: </label>
+          <input type="text" id="input" />
+          <div id="button">Search</div>
+        </form>
+      </div>
+      <div id="searchHistory">
+        <div class="recentSearch">Search History:</div>
+      </div>
       <div id="daysEach"></div>
     </main>
     <footer></footer>
